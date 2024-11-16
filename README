@@ -1,4 +1,7 @@
-export CLUSTER_NAME=cosign
-maj du nom de la registry ds config/k3d-config.yaml
-scripts/k3d.sh setup
+(Forked from https://github.com/rajasoun/k3d-istio)
+
+Usage :
+- export CLUSTER_NAME=cosign
+- maj du nom de la registry ds config/k3d-config.yaml
+- scripts/k3d.sh setup
 
