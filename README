@@ -1,0 +1,4 @@
+export CLUSTER_NAME=cosign
+maj du nom de la registry ds config/k3d-config.yaml
+scripts/k3d.sh setup
+
