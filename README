@@ -1,7 +1,9 @@
 (Forked from https://github.com/rajasoun/k3d-istio)
 
+Crėe un cluster istio ready + registry docker via k3d
+
 Usage :
-- export CLUSTER_NAME=cosign
+- export CLUSTER_NAME=<nom cluster k3d>
 - maj du nom de la registry ds config/k3d-config.yaml
-- scripts/k3d.sh setup
+- lancement : scripts/k3d.sh setup
 
