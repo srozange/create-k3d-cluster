@@ -13,7 +13,7 @@ helm upgrade --install gitlab gitlab/gitlab --timeout 600s --set global.hosts.do
 
 ** MAJ du host **
 
-127.0.0.1 gitlab.my-gitlab.com
-127.0.0.1 minio.my-gitlab.com
-127.0.0.1 registry.my-gitlab.com
-127.0.0.1 kas.my-gitlab.com
+127.0.0.1 gitlab.my-gitlab.com    
+127.0.0.1 minio.my-gitlab.com    
+127.0.0.1 registry.my-gitlab.com    
+127.0.0.1 kas.my-gitlab.com     
