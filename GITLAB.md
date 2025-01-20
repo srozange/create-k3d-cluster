@@ -2,7 +2,7 @@ Récup du repo : https://github.com/srozange/create-k3d-cluster
 
 Commandes :
 
-export CLUSTER_NAME=gitlab
+export CLUSTER_NAME=gitlab     
 scripts/k3d.sh setup
 
 ** Installation de gitlab **
