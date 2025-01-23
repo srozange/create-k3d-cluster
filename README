@@ -4,6 +4,5 @@ Crėe un cluster istio ready + registry docker via k3d
 
 Usage :
 - export CLUSTER_NAME=<nom cluster k3d>
-- maj du nom de la registry ds config/k3d-config.yaml
 - lancement : scripts/k3d.sh setup
 
