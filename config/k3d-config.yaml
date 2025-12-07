@@ -12,7 +12,7 @@ kubeAPI:
   host: "k3d.local.gd"  # important for the `server` setting in the kubeconfig Refer: https://local.gd/
   hostIP: "127.0.0.1"   # where the Kubernetes API will be listening on
   hostPort: "6443"      # where the Kubernetes API listening port will be mapped to on your host system
-image: rancher/k3s:latest
+image: rancher/k3s:v1.29.4-k3s1
 
 ports:
   - port: 80:80   # forward requests from port 8080 to 80 in the k8 cluster. Load balancer (Docker Port)
